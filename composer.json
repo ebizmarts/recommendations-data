@@ -1,12 +1,12 @@
 {
-    "name": "ebizmarts/recommendations",
+    "name": "ebizmarts/recommendations-data",
     "type": "library",
-    "description": ":package_description",
+    "description": "Generate the data packages to send to recommendation engines.",
     "keywords": [
         "ebizmarts",
         "recommendations"
     ],
-    "homepage": "https://github.com/ebizmarts/recommendations",
+    "homepage": "https://github.com/ebizmarts/recommendations-data",
     "license": "MIT",
     "authors": [
         {
