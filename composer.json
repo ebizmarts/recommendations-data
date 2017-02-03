@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "ebizmarts/recommendations",
     "type": "library",
     "description": ":package_description",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "ebizmarts",
+        "recommendations"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/ebizmarts/recommendations",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Ebizmarts",
+            "email": "info@ebizmarts.com",
+            "homepage": "https://ebizmarts.com/",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "Ebizmarts\\Recommendations\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "Ebizmarts\\Recommendations\\": "tests"
         }
     },
     "scripts": {
