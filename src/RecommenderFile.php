@@ -8,15 +8,12 @@
 
 namespace Ebizmarts\Recommendations;
 
-use Ebizmarts\Recommendations\RecommenderException;
-
 class RecommenderFile
 {
 
     public function __construct(
         \Ebizmarts\Recommendations\Filesystem\CsvWriter $csvWriter
-    )
-    {
+    ) {
         $this->writer = $csvWriter;
     }
 
