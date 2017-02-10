@@ -44,6 +44,15 @@ abstract class AbstractSimpleObject
     }
 
     /**
+     * Reset data.
+     * @return void
+     */
+    public function resetData()
+    {
+        $this->data = [];
+    }
+
+    /**
      * Return Data Object data in array format.
      *
      * @return array
