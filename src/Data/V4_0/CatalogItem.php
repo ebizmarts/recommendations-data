@@ -8,6 +8,9 @@ class CatalogItem extends AbstractSimpleObject implements CatalogItemInterface
 {
     public function setId($id)
     {
+        $id = substr($id, 0, 50);
+        $id = preg_replace("/[^A-Za-z0-9_-]/", "", $id);
+
         $this->setData(self::ID, $id);
     }
 
